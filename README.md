@@ -77,3 +77,4 @@ You can also use the event.stopImmediatePropagation() method to stop the event f
 You can also specify the propagation method when adding an event listener by using addEventListener method and passing in the third argument as true for capturing and false for bubbling.
 
 It is important to understand event propagation when working with events in JavaScript, as it can affect how an event is handled and can lead to unexpected behavior if not handled correctly.
+[label](image/Event%20Bubbling%20and%20Event%20Catching%20in%20JavaScript%20and%20React.pngF:/Interview-Prepared/JS/event-delegation/README.md)
