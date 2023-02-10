@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alphabetical order</title>
+  </head>
+  <body onload="alphabet_order()">
+    <script>
+      function alphabet_order() {
+        var str = prompt("enter the number");
+        var t = str.split("").sort().join("");
+        document.write(t);
+      }
+      <!-- document.write(alphabet_order("webmaster")); -->
+    </script>
+  </body>
+</html>
