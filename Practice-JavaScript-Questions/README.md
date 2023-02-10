@@ -39,7 +39,7 @@
 
 ## h2 **Must reading this** Overview of the parsing model
 
-## ![https://html.spec.whatwg.org/images/parsing-model-overview.svg]
+## ![parsing model ](https://html.spec.whatwg.org/images/parsing-model-overview.svg)
 
 ---
 
