@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body onload="reverse()"">
+    <script>
+      function reverse() {
+        var r = prompt("enter the number");
+        var t = r.split("").reverse().join("");
+        document.write(t);
+      }
+    </script>
+  </body>
+  <!-- <body>
+    <script>
+      let num = 12345;
+      function reverseNumber(num) {
+        let reversed = 0;
+        while (num !== 0) {
+          reversed = reversed * 10 + (num % 10);
+          num = Math.floor(num / 10);
+        }
+        return reversed;
+      }
+
+      let reversedNum = reverseNumber(num);
+      console.log(reversedNum); // Output: 54321
+    </script>
+  </body> -->
+</html>
