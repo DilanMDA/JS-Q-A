@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>counts the number of vowels</title>
+  </head>
+  <body>
+    <script>
+      function vowel_count(str1) {
+        var vowel_list = "aeiouAEIOU";
+        var vcount = 0;
+        for (var x = 0; x < str1.length; x++) {
+          if (vowel_list.indexOf(str1[x]) !== -1) {
+            vcount += 1;
+          }
+        }
+        return vcount;
+      }
+      document.write(vowel_count(prompt("enter your input")));
+    </script>
+  </body>
+</html>
