@@ -83,7 +83,7 @@ Document.write(vowel_count("The quick brown fox"));
 - The indexOf() method is case sensitive.
   [indexOf()](https://www.w3schools.com/jsref/jsref_indexof.asp)
 
-## **4- Write a JavaScript function that accepts a string as a parameter and converts the first letter of each word of the string in upper case.**
+  **4- Write a JavaScript function that accepts a string as a parameter and converts the first letter of each word of the string in upper case.**
 
 **Example string : 'the quick brown fox'**
 **Expected Output : 'The Quick Brown Fox '**
@@ -99,4 +99,30 @@ function uppercase(str) {
   return newarray1.join(" ");
 }
 document.write(uppercase("the quick brown fox"));
+```
+
+**5- Write a JavaScript program to get the current date.**
+**Expected Output :**
+**mm-dd-yyyy, mm/dd/yyyy or dd-mm-yyyy, dd/mm/yyyy**
+
+```js
+  var today = new Date();
+      var dd = today.getDate();
+      var mm = today.getMonth() + 1;
+      var yyyy = today.getFullYear();
+      if (dd < 10) {
+        dd = "0" + dd;
+      }
+
+      if (mm < 10) {
+        mm = "0" + mm;
+      }
+      today = mm + "-" + dd + "-" + yyyy;
+      document.write(today);
+      today = mm + "/" + dd + "/" + yyyy;
+      document.write(today);
+      today = dd + "-" + mm + "-" + yyyy;
+      document.write(today);
+      today = dd + "/" + mm + "/" + yyyy;
+      document.write(today);
 ```
